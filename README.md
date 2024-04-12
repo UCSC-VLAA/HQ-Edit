@@ -4,7 +4,7 @@ Dataset, code, and models for [HQ-Edit]().
 
 A working demo with our fine-tuned checkpoint is available on [https://huggingface.co/spaces/LAOS-Y/HQEdit](https://huggingface.co/spaces/LAOS-Y/HQEdit).
 
-Check [project website](https://ucsc-vlaa.github.io/projects/HQ-Edit/) for data examples and more.
+Check [project website](https://thefllood.github.io/HQEdit_web/) for data examples and more.
 
 ![teaser image](figs/teaser.png)
 
