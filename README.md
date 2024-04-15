@@ -12,10 +12,10 @@ Check [project website](https://thefllood.github.io/HQEdit_web/) for data exampl
 HQ-Edit is a high-quality and high-coverage instruction-based image editing dataset with around 200,000 edits collected with GPT-4V and DALL-E 3. HQ-Edit’s high-resolution images, rich in detail and accompanied by comprehensive editing prompts, substantially enhance the capabilities of existing image editing models.
 
 
-
-<!-- ## Citation Information
-
+## Citation
 If you find our HQ-Edit dataset or the fine-tuned checkpoint useful, please consider citing our paper:
 
 ```
-``` -->
+
+```
+
