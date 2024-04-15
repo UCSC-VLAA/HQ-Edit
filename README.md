@@ -1,6 +1,6 @@
 # HQ-Edit: A High-Quality and High-Coverage Dataset for General Image Editing
 
-Dataset, code, and models for [HQ-Edit]().
+[Dataset](https://huggingface.co/datasets/UCSC-VLAA/HQ-Edit), [code](), and [model](https://huggingface.co/UCSC-VLAA/HQ-Edit) for [HQ-Edit]().
 
 A working demo with our fine-tuned checkpoint is available on [Demo](https://huggingface.co/spaces/LAOS-Y/HQEdit).
 
@@ -11,11 +11,7 @@ Check [project website](https://thefllood.github.io/HQEdit_web/) for data exampl
 ## Dataset Summary
 HQ-Edit is a high-quality and high-coverage instruction-based image editing dataset with around 200,000 edits collected with GPT-4V and DALL-E 3. HQ-Edit’s high-resolution images, rich in detail and accompanied by comprehensive editing prompts, substantially enhance the capabilities of existing image editing models.
 
-## Dataset Access
-Dataset is available on [HuggingFace](https://huggingface.co/datasets/UCSC-VLAA/HQ-Edit).
 
-## Model Zoo
-The model checkpoint is available on [Checkpoint](https://huggingface.co/UCSC-VLAA/HQ-Edit).
 
 <!-- ## Citation Information
 
