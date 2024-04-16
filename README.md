@@ -23,23 +23,28 @@ pip install git+https://github.com/huggingface/diffusers
 
 ```python 
 import torch
-from diffusers import StableDiffusionXLInstructPix2PixPipeline
+from diffusers import StableDiffusionInstructPix2PixPipeline, EulerAncestralDiscreteScheduler
 from diffusers.utils import load_image
-resolution = 768
+
+image_guidance_scale = 1.5
+guidance_scale = 7.0
+model_id = "MudeHui/HQ-Edit"
+pipe = StableDiffusionInstructPix2PixPipeline.from_pretrained(model_id, torch_dtype=torch.float16, safety_checker=None)
+pipe.to("cuda")
+pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
+resolution = 512
 image = load_image(
     "https://hf.co/datasets/diffusers/diffusers-images-docs/resolve/main/mountain.png"
 ).resize((resolution, resolution))
+
 edit_instruction = "Turn sky into a cloudy one"
-pipe = StableDiffusionXLInstructPix2PixPipeline.from_pretrained(
-    "UCSC-VLAA/HQ-Edit", torch_dtype=torch.float16
-).to("cuda")
 edited_image = pipe(
     prompt=edit_instruction,
     image=image,
     height=resolution,
     width=resolution,
-    guidance_scale=3.0,
-    image_guidance_scale=1.5,
+    guidance_scale=image_guidance_scale,
+    image_guidance_scale=image_guidance_scale,
     num_inference_steps=30,
 ).images[0]
 edited_image.save("edited_image.png")
