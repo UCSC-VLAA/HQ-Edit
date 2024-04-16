@@ -1,6 +1,6 @@
 # HQ-Edit: A High-Quality and High-Coverage Dataset for General Image Editing
 
-[Dataset](https://huggingface.co/datasets/UCSC-VLAA/HQ-Edit), [code](), and [model](https://huggingface.co/UCSC-VLAA/HQ-Edit) for [HQ-Edit]().
+[Dataset](https://huggingface.co/datasets/UCSC-VLAA/HQ-Edit), [code](), and [model](https://huggingface.co/UCSC-VLAA/HQ-Edit) for [HQ-Edit](https://arxiv.org/abs/2404.09990).
 
 A [working demo](https://huggingface.co/spaces/LAOS-Y/HQEdit) with our fine-tuned checkpoint is available.
 
