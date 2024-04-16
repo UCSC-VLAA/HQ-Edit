@@ -49,6 +49,13 @@ edited_image.save("edited_image.png")
 If you find our HQ-Edit dataset or the fine-tuned checkpoint useful, please consider citing our paper:
 
 ```
-
+@misc{hui2024hqedit,
+      title={HQ-Edit: A High-Quality Dataset for Instruction-based Image Editing}, 
+      author={Mude Hui and Siwei Yang and Bingchen Zhao and Yichun Shi and Heng Wang and Peng Wang and Yuyin Zhou and Cihang Xie},
+      year={2024},
+      eprint={2404.09990},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
