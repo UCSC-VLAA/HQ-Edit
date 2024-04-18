@@ -1,0 +1,8 @@
+openai==1.12.0
+pyarrow==15.0.2
+pandas==2.2.0
+pillow==10.2.0
+tenacity==8.2.3
+langchain==0.1.9
+langchain-community==0.0.22
+langchain-core==0.1.26
